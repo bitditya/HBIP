@@ -1,19 +1,7 @@
 # 🔐 Password Breach Checker
 
-### **Hack Culprit Virtual Internship - Project Report**
-
-**Project Title:** Password Breach Checker  
-**Submitted by:** Rahul Solanki  
-**Internship Role:** Virtual Intern  
-**Organization:** Hack Culprit  
-**GitHub Profile:** https://github.com/rahulsolanki2005                           
-**Project Duration:** OCT-2025 – NOV-2025                                
-**Project Repository:** https://github.com/rahulsolanki2005/HackCulprit_Passwaord-Breach-Checker
-
----
-
 ## 🧠 Executive Summary
-The **Password Breach Checker** is a lightweight, privacy-focused tool built using **Python** and **Streamlit** during the Hack Culprit Virtual Internship.  
+The **Password Breach Checker** is a lightweight, privacy-focused tool built using **Python** and **Streamlit** .  
 It checks whether a password has appeared in known data breaches using the **Have I Been Pwned (HIBP)** API — without revealing the actual password, thanks to **k-anonymity hashing** (only the first 5 characters of the SHA-1 hash are sent to the API).
 
 ---
@@ -61,28 +49,6 @@ This project helps them verify that securely, using a fast and privacy-preservin
 - Python 3.8+
 - pip
 
-### Steps to Run
-```bash
-# Clone the repository
-git clone https://github.com/rahulsolanki2005/HackCulprit_Passwaord-Breach-Checker
-
-# (Optional) create & activate a virtual environment
-python -m venv myenv
-# Windows
-myenv\Scripts\activate
-# macOS / Linux
-source myenv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-# or manually:
-pip install streamlit requests
-
-# Run the Streamlit app
-streamlit run app.py
-Note: Passwords are hashed locally — only the first 5 characters of the SHA-1 hash are sent to the HIBP API (k-anonymity model).
-
-```
 
 ## 🌟 Key Features
   - 🔐 Privacy-preserving password breach checking.
@@ -115,9 +81,5 @@ Note: Passwords are hashed locally — only the first 5 characters of the SHA-1 
   - The Password Breach Checker provided practical exposure to secure app design, Python web development, and cybersecurity principles.
   - It’s a compact, educational, and functional project that demonstrates both privacy-first thinking and professional coding discipline.
 
-## 🙏 Acknowledgements
-  - Thanks to the Hack Culprit Team for the virtual internship opportunity, mentorship, and support.
-  - Special thanks to peers who provided guidance during the development process.
 
-## 📜 License
-  - This project is licensed under the MIT License — see LICENSE for details.
+
